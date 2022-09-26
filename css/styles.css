@@ -1,0 +1,103 @@
+/* HEADER */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196F3;}
+
+  .menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;}
+
+  .menu-link:hover,
+  .menu-link:focus {
+          color: #2196F3;
+        }
+.mail-link {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mail-link:hover,
+.mail-link:focus {
+      color:#2196F3;
+}
+.tel-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.tel-link:hover,
+.tel-link:focus {
+color: #2196F3;
+}
+
+/* Hero */
+
+.main-hero {
+font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* color: #FFFFFF;} */
+}
+.modal-button {
+font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+   color: #FFFFFF;
+}
+
+/* FEATURES */
+
+.header-features {
+font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.text-features {
+font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.0;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
