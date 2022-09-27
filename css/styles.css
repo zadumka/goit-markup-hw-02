@@ -1,3 +1,12 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* HEADER */
 
 .logo {
@@ -7,35 +16,32 @@
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196F3;}
+  color: #2196f3;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-  .menu-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    color: #212121;}
-
-  .menu-link:hover,
-  .menu-link:focus {
-          color: #2196F3;
-        }
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
 .mail-link {
-  font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 .mail-link:hover,
 .mail-link:focus {
-      color:#2196F3;
+  color: #2196f3;
 }
 .tel-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,13 +51,12 @@
 }
 .tel-link:hover,
 .tel-link:focus {
-color: #2196F3;
+  color: #2196f3;
 }
 
 /* Hero */
 
 .main-hero {
-font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -64,7 +69,6 @@ font-family: 'Roboto', sans-serif;
   /* color: #FFFFFF;} */
 }
 .modal-button {
-font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -75,13 +79,12 @@ font-family: 'Roboto', sans-serif;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-   color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* FEATURES */
 
 .header-features {
-font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -91,13 +94,100 @@ font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 .text-features {
-font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 2.0;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+/* WHAT WE DO */
+
+.header-what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* OUR TIME */
+.header-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.job-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* FOOTER */
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.name-city {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: #FFFFFF; */
+}
+.fotter-link-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+.phone-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
 }
